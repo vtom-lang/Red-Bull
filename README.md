@@ -1,4 +1,4 @@
-# Red-
+
 // app/page.tsx
 // Single-page landing (English) — 5 sections: Hero, Trust Bar, P.A.S., Social Proof + Pricing, Risk Reversal
 // Revenue boosters: Bundling + Decoy + Upsell (Subscription)
