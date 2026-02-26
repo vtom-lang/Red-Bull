@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bull Antigravity | Defy Gravity</title>
+    <meta name="description"
+        content="Red Bull Antigravity - The premium utility drink that gives you wings. Defy gravity and push your limits.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Embedded SVG assets and refinements */
+        .svg-logo {
+            height: 60px;
+            fill: white;
+            margin-bottom: 2rem;
+        }
+
+        .grid-item-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--color-secondary);
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scroll-container" id="main-scroll">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="video-overlay"></div>
+            <div class="hero-content">
+                <!-- Red Bull Logo Placeholder -->
+                <svg class="svg-logo" viewBox="0 0 100 20">
+                    <text x="0" y="15" font-family="Outfit" font-weight="900" font-size="12">RED BULL</text>
+                </svg>
+                <h1>Defy<br><span class="text-primary">Gravity</span></h1>
+                <p class="hero-subtitle">BEYOND THE ORDINARY. BEYOND THE LIMITS.</p>
+                <div class="hero-ctas">
+                    <a href="#product" class="btn btn-primary">Get Wings</a>
+                    <a href="#media" class="btn btn-secondary">Explore Media</a>
+                </div>
+            </div>
+            <div class="hero-can-container">
+                <div class="hero-can"></div>
+            </div>
+        </section>
+
+        <!-- Product Section -->
+        <section id="product" class="product">
+            <div class="container">
+                <h2 class="section-title">The Catalyst</h2>
+                <div class="product-showcase">
+                    <div class="hero-can"
+                        style="height: 400px; width: 180px; animation: none; opacity: 1; transform: rotate(-5deg);">
+                    </div>
+                    <div class="product-info">
+                        <h3>Functional Energy</h3>
+                        <p>Red Bull Energy Drink is a functional beverage providing wings whenever you need them.
+                            Vitalizes body and mind.</p>
+                        <ul style="list-style: none; margin: 1.5rem 0; font-weight: 700;">
+                            <li>✓ Mental Alertness</li>
+                            <li>✓ Physical Performance</li>
+                            <li>✓ Metabolism Support</li>
+                        </ul>
+                        <div class="editions-selector">
+                            <span class="edition-btn active" data-edition="original">Classic</span>
+                            <span class="edition-btn" data-edition="red">Red</span>
+                            <span class="edition-btn" data-edition="blue">Blue</span>
+                            <span class="edition-btn" data-edition="yellow">Yellow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lifestyle/Media Feed -->
+        <section id="media" class="media-feed">
+            <div class="container">
+                <h2 class="section-title">Defying Limits</h2>
+                <div class="bento-grid">
+                    <div class="grid-item large glass">
+                        <div class="grid-item-placeholder"
+                            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1521316730702-829ad3878982?auto=format&fit=crop&w=1200&q=80') center/cover;">
+                            STRATOS</div>
+                        <div class="grid-overlay">
+                            <h4>Space Jump</h4>
+                            <span>The Mission to the Edge of Space</span>
+                        </div>
+                    </div>
+                    <div class="grid-item glass">
+                        <div class="grid-item-placeholder"
+                            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1533130061792-64b345e4a833?auto=format&fit=crop&w=600&q=80') center/cover;">
+                            F1 RACING</div>
+                        <div class="grid-overlay">
+                            <h4>Oracle Red Bull Racing</h4>
+                        </div>
+                    </div>
+                    <div class="grid-item glass">
+                        <div class="grid-item-placeholder"
+                            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1599586120406-cccd6d3cc3b2?auto=format&fit=crop&w=600&q=80') center/cover;">
+                            BMX</div>
+                        <div class="grid-overlay">
+                            <h4>Street Style</h4>
+                        </div>
+                    </div>
+                    <div class="grid-item tall glass">
+                        <div class="grid-item-placeholder"
+                            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80') center/cover;">
+                            CLIFF DIVING</div>
+                        <div class="grid-overlay">
+                            <h4>Cliff Diving</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Section -->
+        <section id="register" class="registration">
+            <div class="container">
+                <div class="registration-card glass animate-rise">
+                    <h2 class="section-title">Ascend to Greatness</h2>
+                    <p class="registration-subtitle">Join the elite ranks of the Antigravity fleet. Get exclusive access
+                        to media, events, and new editions.</p>
+
+                    <form id="registration-form" class="registration-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="MAX VERSTAPPEN" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="MAX@REDBULLRACING.COM" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="edition">Preferred Edition</label>
+                            <select id="edition" name="edition">
+                                <option value="original">CLASSIC (SILVER/BLUE)</option>
+                                <option value="red">RED EDITION (WATERMELON)</option>
+                                <option value="blue">BLUE EDITION (BLUEBERRY)</option>
+                                <option value="yellow">YELLOW EDITION (TROPICAL)</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            Ignition <span class="arrow">→</span>
+                        </button>
+                    </form>
+                    <div id="form-success" class="form-success-message" style="display: none;">
+                        <h3>WELCOME TO THE FLEET.</h3>
+                        <p>YOUR WINGS ARE BEING PREPARED.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section id="cta" class="final-cta">
+            <div class="cta-card glass">
+                <h2>Ignition</h2>
+                <p>Are you ready to transcend the mundane and achieve peak performance?</p>
+                <a href="#" class="btn btn-primary" style="background: white; color: var(--color-primary);">Get Started
+                    Now</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- DIGITAL ARCHEOLOGY: DEFY THE SURFACE. TYPE 'WINGS' TO ASCEND. -->
+    <div id="antigravity-node" style="display:none;" data-clue="GHOST DROP ACTIVE"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
